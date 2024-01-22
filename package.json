@@ -1,0 +1,19 @@
+{
+  "name": "tekmovanje",
+  "version": "1.0.0",
+  "description": "spletna stran za tekmovanje",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "webpack-dev-server --open --config webpack/webpack.config.dev.js"
+  },
+  "author": "jst",
+  "license": "ISC",
+  "dependencies": {
+    "chart.js": "^4.4.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
